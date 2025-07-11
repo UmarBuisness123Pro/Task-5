@@ -167,3 +167,24 @@ footer {
 .btn:hover{
   transition: 0.1 ;
 }
+nav a:hover,
+nav a:focus {
+  background: #2563eb;
+  color: white;
+  outline: none;
+  box-shadow: 0 8px 20px rgb(37 99 235 / 0.4);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+nav a {
+  color: #374151;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 1rem;
+}
